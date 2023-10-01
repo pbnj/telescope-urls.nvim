@@ -42,6 +42,5 @@ local urls = function(opts)
 end
 
 return require("telescope").register_extension {
-  setup = function(ext_config, config) end,
-  exports = { urls = urls },
+  exports = { urls },
 }
